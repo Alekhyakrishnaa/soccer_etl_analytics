@@ -41,7 +41,7 @@ SQLAlchemy is used for connecting Python => MySQL workbench
 Executed key business logical queries in SQL and python.
 Exported the results as CSV using pandas.
 
-5.VISUALIZATION:
+5. VISUALIZATION:
 Used PowerBI to visualize the analytical results.
 Created a dashboard to deliver the business insights effectively.
 Download the '.pbix' into your system to view the dashboard.
