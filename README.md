@@ -56,12 +56,13 @@ ANALYTICAL QUESTIONS ANSWERED:
 | 4 | What are the top 5 successful clubs?                           |
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REQUIREMENTS:
-pandas
-sqlalchemy
-logging
-jupyterlab
-notebook
-microsoft powerbi
+1. pandas
+2. sqlalchemy
+3. logging
+4. jupyter lab
+5. notebook
+6. mysql workbench
+7. powerbi
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
