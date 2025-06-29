@@ -1,6 +1,8 @@
-"Built a Python-based ETL pipeline using pandas and SQLAlchemy to clean, transform, and load data from raw CSV files into a MySQL database, forming a dimensional star schema. Exported analytical outputs and visualized them using Power BI. Included basic logging and modular script structure."
--------------------------------------------------------------------------------------------------------------------------------
-🛠 TECH STACK:
+## OVERVIEW:
+
+Built a Python-based ETL pipeline using pandas and SQLAlchemy to clean, transform, and load data from raw CSV files into a MySQL database, forming a dimensional star schema. Exported analytical outputs and visualized them using Power BI. Included basic logging and modular script structure.
+
+## 🛠 TECH STACK:
 | Layer         | Tool/Technology           |
 | ------------- | ------------------------- |
 | Source Data   | CSV files (3)             |
@@ -11,15 +13,13 @@
 | Visualization | Power BI                  |
 | IDEs          | Jupyter Notebook          |
 
-------------------------------------------------------------------------------------------------------------------------------
-DATA SOURCES:
+## DATA SOURCES:
 => DIM.DATE.Table.csv
 => soccer_src1.csv
 => sockey_src2.csv
 You can view these files under the folder raw data.
 
-------------------------------------------------------------------------------------------------------------------------------
-STEP-BY-STEP PROCESS:
+## STEP-BY-STEP PROCESS:
 1. ETL PROCESS:
 Extracted the raw data from csv files using python.
 Performed cleaning operations on the data by using pandas.
@@ -46,16 +46,15 @@ Used PowerBI to visualize the analytical results.
 Created a dashboard to deliver the business insights effectively.
 Download the '.pbix' into your system to view the dashboard.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ANALYTICAL QUESTIONS ANSWERED:
+## ANALYTICAL QUESTIONS ANSWERED:
 | # | Question                                                       |
 | - | -------------------------------------------------------------- |
 | 1 | Which player has maximum appearances in international matches? |
 | 2 | Who were top 10 goal scorers in year 2010?                     |
 | 3 | Top 5 players who got red card?                                |
 | 4 | What are the top 5 successful clubs?                           |
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-REQUIREMENTS:
+
+## REQUIREMENTS:
 1. pandas
 2. sqlalchemy
 3. logging
@@ -64,7 +63,7 @@ REQUIREMENTS:
 6. mysql workbench
 7. powerbi
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
